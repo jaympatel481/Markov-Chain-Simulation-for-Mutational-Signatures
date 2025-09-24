@@ -132,4 +132,3 @@ for SNVs.
 $$LR = 2 (LL_{\text{non-eq}} - LL_{\text{eq}})$$
 
 Under the null hypothesis (equilibrium), $LR \sim \chi^2_k$, where $k = d_f(\text{non-eq}) - d_f(\text{eq})$.
-
