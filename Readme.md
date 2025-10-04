@@ -17,9 +17,9 @@ The state of the tumor at time $t$ is represented by:
    $$X(t + \Delta t) = X(t) \cdot e^{r \Delta t}$$
 
 2. Mutation Events:
-   For each MS locus $j$ (1 ≤ j ≤ N) in each time step $\Delta t$:
+   For each MS locus $j$ (1 ≤ j ≤ N) in each time step $$\Delta t$$:
    $$\begin{aligned}
-   p_i &= \mu_i \cdot \Delta t \\
+   $$p_i &= \mu_i \cdot \Delta t$$ \\
    p_d &= \mu_d \cdot \Delta t \\
    p_s &= \mu_s \cdot \Delta t \\
    p_n &= 1 - (p_i + p_d + p_s)
