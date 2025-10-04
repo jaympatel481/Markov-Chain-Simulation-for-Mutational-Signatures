@@ -18,12 +18,12 @@ The state of the tumor at time $t$ is represented by:
 
 2. Mutation Events:
    For each MS locus $j$ (1 ≤ j ≤ N) in each time step $$\Delta t$$:
-   $$\begin{aligned}
-   $$p_i &= \mu_i \cdot \Delta t$$ \\
+   $$
+   p_i &= \mu_i \cdot \Delta t \\
    p_d &= \mu_d \cdot \Delta t \\
    p_s &= \mu_s \cdot \Delta t \\
    p_n &= 1 - (p_i + p_d + p_s)
-   \end{aligned}$$
+  $$
    $$(E_j) \sim \text{Multinomial}(X(t), [p_n, p_i, p_d, p_s])$$
    where $E_j = [E_{j,n}, E_{j,i}, E_{j,d}, E_{j,s}]$ represents the number of cells experiencing no event, insertion, deletion, and SNV respectively.
 
